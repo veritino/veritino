@@ -5,12 +5,6 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
-:root {
-  --axuata-normal-fontcolor-header: #0B0B0F;
-  --axuata-normal-fontcolor-tag: #5c5c5c;
-  --axuata-normal-fontcolor-description: #424242;
-}
-
 a {
   color: #0022ff;
 }

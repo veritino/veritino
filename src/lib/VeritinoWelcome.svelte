@@ -3,7 +3,7 @@
 </script>
 
 <div class="welcome">
-    <p>Welcome</p>
+    <p>ようこそ</p>
 </div>
 
 <style lang="scss" scoped>

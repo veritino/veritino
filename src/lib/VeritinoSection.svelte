@@ -18,9 +18,10 @@ export let sectionDescription: string;
 
 .section {
   margin: 56px 10px;
+
   .section-title {
-    font-size: 34px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 800;
   }
 
   .section-title::before {

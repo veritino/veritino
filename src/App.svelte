@@ -2,6 +2,11 @@
 import VeritinoHeader from "./lib/VeritinoHeader.svelte";
 import VeritinoWelcome from "./lib/VeritinoWelcome.svelte";
 import VeritinoSection from "./lib/VeritinoSection.svelte";
+import VeritinoCard from "./lib/VeritinoCard.svelte";
+import VeritinoFooter from "./lib/VeritinoFooter.svelte";
+
+import cardProjectImageVeritino from './assets/images/veritino/veritino.png'
+import cardMemberImageAxuata from "./assets/images/_members/axuata-wb.png";
 </script>
 
 <main>
@@ -15,8 +20,20 @@ import VeritinoSection from "./lib/VeritinoSection.svelte";
   <VeritinoSection sectionTitle="メンバー" sectionDescription="
     <p>Veritinoのメンバーリストです。</p>
   ">
-  <p>作り途中</p>
+    <VeritinoCard imagePath={cardMemberImageAxuata} cardTitle="Axuata" cardDescription="
+      <p>Veritinoの管理者</p>
+      <a href='https://github.com/axuata'>Github</a>
+    "/>
   </VeritinoSection>
+  <VeritinoSection sectionTitle="プロジェクト" sectionDescription="
+    <p>Veritinoのプロジェクトリストです。</p>
+  ">
+    <VeritinoCard imagePath={cardProjectImageVeritino} cardTitle="Axuata" cardDescription="
+      <p>Veritinoのウェブサイト</p>
+      <a href='https://github.com/veritino/veritino'>Github</a>
+    "/>
+  </VeritinoSection>
+  <VeritinoFooter />
 </main>
 
 <style>
