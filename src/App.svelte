@@ -37,6 +37,10 @@ import cardMemberImageRetrip from "./assets/images/_members/retrip.png";
       <p>Veritinoのウェブサイト</p>
       <a href='https://github.com/veritino/veritino'>Github</a>
     "/>
+    <VeritinoCard imagePath={cardProjectImageVeritino} cardTitle="Veritibot" cardDescription="
+      <p>VeritinoのDiscordサーバー用に作られたBOT</p>
+      <a href='https://github.com/veritino/veritibot'>Github</a>
+    "/>
   </VeritinoSection>
   <VeritinoFooter />
 </main>
