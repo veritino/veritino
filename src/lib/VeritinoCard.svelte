@@ -29,6 +29,7 @@ export let cardDescription: string;
     padding: 12px 0;
 
     img {
+      border-radius: 32px;
       height: 100px;
     }
   }

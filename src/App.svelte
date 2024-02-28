@@ -6,7 +6,8 @@ import VeritinoCard from "./lib/VeritinoCard.svelte";
 import VeritinoFooter from "./lib/VeritinoFooter.svelte";
 
 import cardProjectImageVeritino from './assets/images/veritino/veritino.png'
-import cardMemberImageAxuata from "./assets/images/_members/axuata-wb.png";
+import cardMemberImageAxuata from "./assets/images/_members/axuata.png";
+import cardMemberImageRetrip from "./assets/images/_members/retrip.png";
 </script>
 
 <main>
@@ -23,6 +24,10 @@ import cardMemberImageAxuata from "./assets/images/_members/axuata-wb.png";
     <VeritinoCard imagePath={cardMemberImageAxuata} cardTitle="Axuata" cardDescription="
       <p>Veritinoの管理者</p>
       <a href='https://github.com/axuata'>Github</a>
+    "/>
+    <VeritinoCard imagePath={cardMemberImageRetrip} cardTitle="Retrip" cardDescription="
+      <p>Veritinoのメンバー</p>
+      <a href='https://github.com/samayoeru-pita'>Github</a>
     "/>
   </VeritinoSection>
   <VeritinoSection sectionTitle="プロジェクト" sectionDescription="
