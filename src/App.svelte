@@ -28,7 +28,7 @@ import cardMemberImageAxuata from "./assets/images/_members/axuata-wb.png";
   <VeritinoSection sectionTitle="プロジェクト" sectionDescription="
     <p>Veritinoのプロジェクトリストです。</p>
   ">
-    <VeritinoCard imagePath={cardProjectImageVeritino} cardTitle="Axuata" cardDescription="
+    <VeritinoCard imagePath={cardProjectImageVeritino} cardTitle="Veritino" cardDescription="
       <p>Veritinoのウェブサイト</p>
       <a href='https://github.com/veritino/veritino'>Github</a>
     "/>
