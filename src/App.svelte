@@ -6,6 +6,8 @@ import VeritinoCard from "./lib/VeritinoCard.svelte";
 import VeritinoFooter from "./lib/VeritinoFooter.svelte";
 
 import cardProjectImageVeritino from './assets/images/veritino/veritino.png'
+import cardProjectImageLetters from './assets/images/_projects/letters/icon.png'
+
 import cardMemberImageAxuata from "./assets/images/_members/axuata.png";
 import cardMemberImageRetrip from "./assets/images/_members/retrip.png";
 </script>
@@ -40,6 +42,10 @@ import cardMemberImageRetrip from "./assets/images/_members/retrip.png";
     <VeritinoCard imagePath={cardProjectImageVeritino} cardTitle="Veritibot" cardDescription="
       <p>VeritinoのDiscordサーバー用に作られたBOT</p>
       <a href='https://github.com/veritino/veritibot'>Github</a>
+    "/>
+    <VeritinoCard imagePath={cardProjectImageLetters} cardTitle="Letters" cardDescription="
+      <p>簡単なアクセント記号の辞書</p>
+      <a href='https://github.com/veritino/Letters'>Github</a>
     "/>
   </VeritinoSection>
   <VeritinoFooter />
