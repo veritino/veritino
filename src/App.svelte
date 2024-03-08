@@ -43,10 +43,6 @@ import cardMemberImageRetrip from "./assets/images/_members/retrip.png";
       <p>VeritinoのDiscordサーバー用に作られたBOT</p>
       <a href='https://github.com/veritino/veritibot'>Github</a>
     "/>
-    <VeritinoCard imagePath={cardProjectImageLetters} cardTitle="Letters" cardDescription="
-      <p>簡単なアクセント記号の辞書</p>
-      <a href='https://github.com/veritino/Letters'>Github</a>
-    "/>
   </VeritinoSection>
   <VeritinoFooter />
 </main>
